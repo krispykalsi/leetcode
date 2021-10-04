@@ -1,10 +1,11 @@
-#include "solutions/1143.cpp"
+#include "solutions/463.cpp"
 #include "utils.cpp"
 
 using namespace std;
 
 int main() {
-    auto answer = Solution().longestCommonSubsequence("oxcpqrsvwf", "shmtulqrypy");
+    auto g = Utils::getNewGrid<int>({{1, 0}});
+    auto answer = Solution().islandPerimeter(g);
     Utils::print(answer);
     return 0;
 }
