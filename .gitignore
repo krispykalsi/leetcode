@@ -47,6 +47,7 @@
 
 # CMake
 cmake-build-*/
+build
 
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
@@ -95,3 +96,5 @@ modules.xml
 .idea/sonarlint
 
 # End of https://www.toptal.com/developers/gitignore/api/clion+all
+
+.vscode
