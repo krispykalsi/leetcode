@@ -1,11 +1,11 @@
-#include "solutions/1444.cpp"
+#include "solutions/639.cpp"
 #include "utils.cpp"
 
 using namespace std;
 
 int main() {
-    auto g = Utils::getNewVector<string>({"A..","AAA","..."});
-    auto answer = Solution().ways(g, 3);
+    auto s = "1*";
+    auto answer = Solution().numDecodings(s);
     Utils::print(answer);
     return 0;
 }
